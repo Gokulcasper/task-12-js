@@ -1,0 +1,170 @@
+hr{
+    margin: 40px 0;
+    width: 80%;
+}
+.subscribeContainer{
+    background-color: rgb(212, 228, 255);
+    width: 400px;
+    height: 370px;
+    padding: 30px 30px;
+}
+.containerItem{
+    background-image:url("https://png.pngtree.com/thumb_back/fh260/background/20210224/pngtree-blue-abstract-background-business-image_564246.jpg") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 120px;
+}
+.containerItem>p{
+    color:white;
+    font-size: 20px;
+    margin: 30px;
+}
+.iconContainer{
+    background-color: white;
+    padding: 10px 10px 3px;
+    font-size: 24px;
+    border-radius: 50px;
+}
+.iconContainer>i{
+   color:  rgb(72, 173, 221);
+}
+.subscribeForm{
+    background-color: white;
+    padding: 26px 20px;
+}
+.inputItem{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 85px;
+}
+.inputItem>label{
+font-size: 18px;
+margin-bottom: 5px;
+}
+.inputItem>input{
+width: 93%;
+font-size: 15px;
+border: 1px solid rgb(199, 199, 199);
+border-radius: 5px;
+padding: 5px 10px;
+}
+.inputItem>p{
+margin: 5px;
+}
+.subscribeForm>button{
+padding: 5px 15px;
+font-size: 15px;
+background-color: rgb(72, 173, 221);
+color: white;
+border: none;
+border-radius: 5px;
+}
+
+/* Update Password */
+.passwordContainer{
+    width: 270px;
+    height: 400px;
+    background-color: rgb(122, 87, 155);
+    padding: 30px 40px;
+    color: white;
+}
+
+.passwordContainer>h1{
+font-size: 35px;
+}
+
+.Pwd{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 120px;
+}
+
+.Pwd>label{
+    margin-bottom: 10px;
+}
+.Pwd>input{
+font-size: 15px;
+padding: 5px 10px;
+width: 92%;
+border-radius: 5px;
+border: none;
+}
+
+.updatePasswordForm>button{
+    padding: 10px 20px;
+    background-color: rgb(29, 110, 241);
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+/* Add User */
+
+.addUserContainer{
+    height: 300px;
+    width: 270px;
+    background-color: aquamarine;
+    padding: 20px 30px;
+}
+
+.addUserContainer>h1{
+text-align: start;
+}
+
+.addUser{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 90px;
+}
+.addUser>label{
+margin-bottom: 5px;
+}
+.addUser>input{
+font-size: 14px;
+padding: 5px 10px;
+width: 92%;
+border: none;
+border-radius: 5px;
+}
+.addUser>p{
+margin: 5px 0;
+}
+.addUserForm>button{
+padding: 5px 10px;
+font-size: 15px;
+border: none;
+border-radius: 5px;
+background-color: rgb(29, 110, 241);
+color: white;
+}
+
+/* Select Your Pet */
+
+.petContainer{
+    background-color: rgb(222, 220, 220);
+    height: 300px;
+    width: 250px;
+    border-radius: 25px;
+    padding: 10px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.petContainer>select{
+    border: none;
+    font-size: 18px;
+    padding: 5px 10px;
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+/* dog -  https://static.vecteezy.com/system/resources/thumbnails/020/899/513/small_2x/happy-dog-transparent-background-png.png
+CAt - https://png.pngtree.com/png-vector/20230928/ourmid/pngtree-cute-cat-animal-png-image_10149335.png
+Parrot - https://png.pngtree.com/png-clipart/20230307/ourmid/pngtree-realistic-beautiful-orignal-nature-red-parrot-png-image_6636296.png
+spider - https://static.vecteezy.com/system/resources/previews/032/058/600/non_2x/black-spider-on-transparent-background-free-png.png
+rabbit - https://png.pngtree.com/png-clipart/20230528/ourmid/pngtree-funny-bunny-or-baby-rabbit-for-easter-day-on-isolated-background-png-image_7110369.png
+*/

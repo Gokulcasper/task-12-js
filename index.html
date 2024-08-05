@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Task</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css" rel="stylesheet">
+</head>
+<body>
+    <center>
+    <!-- <div class="subscribeContainer">
+        <div class="containerItem">
+            <span class="iconContainer"><i class="ri-mail-fill"></i></span>
+            <p>Subscribe to Us!</p>
+            </div>
+            <form id="subscribeForm" class="subscribeForm">
+                <div class="inputItem">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name">
+                    <p id="nameErrMsg" style="color: red;"></p>
+                </div>
+                <div class="inputItem">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email">
+                    <p id="emailErrMsg" style="color: red;"></p>
+                </div>
+                <button type="submit">Subscribe</button>
+                </form>
+        </div> -->
+        <hr>
+
+        <!-- Update Password -->
+<div class="passwordContainer">
+    <h1>Update Password</h1>
+        <form id="updatePasswordForm" class="updatePasswordForm">
+            <div class="Pwd">
+                <label for="newPassword">New Password:</label>
+            <input type="password" id="newPassword" placeholder="Enter New Password">
+            <p id="newPasswordErrMsg" style="color: red;"></p>
+            </div>
+            
+            <div class="Pwd">
+                <label for="confirmPassword">Confirm Password:</label>
+            <input type="password" id="confirmPassword" placeholder="Enter Confirm Password">
+            <p id="confirmPasswordErrMsg" style="color: red;"></p>
+            </div>
+    
+            <button type="submit" id="updateBtn">Update</button>
+            <p id="checkPasswordErrMsg"></p>
+        </form>
+    </div>
+    <hr>
+    <!-- Add User -->
+    <div class="addUserContainer">
+        <h1>Add User</h1>
+        <form id="addUserForm" class="addUserForm">
+            <div class="addUser">
+                <label for="name">Name</label>
+                <input type="password" id="name">
+                <p id="nameErrMsg" style="color: red;"></p>
+            </div>
+            <div  class="addUser">
+                <label for="email">Email</label>
+                <input type="password" id="email">
+                <p id="emailErrMsg" style="color: red;"></p>
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+    <hr>
+    <!-- Select Your Pet -->
+    <div class="petContainer">
+    <h1>Select Your Pet</h1>
+    <select id="petSelect">
+        <option value="dog">Dog</option>
+        <option value="cat">Cat</option>
+        <option value="parrot">Parrot</option>
+        <option value="spider">Spider</option>
+        <option value="rabbit">Rabbit</option>
+    </select>
+    <img id="petImg" src="https://static.vecteezy.com/system/resources/thumbnails/020/899/513/small_2x/happy-dog-transparent-background-png.png" alt="Selected Pet" style="width: 170px; height: 170px;">
+    </div>
+    </center>
+    <script src="./index.js"></script>
+</body>
+</html>
+
