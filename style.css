@@ -168,3 +168,42 @@ Parrot - https://png.pngtree.com/png-clipart/20230307/ourmid/pngtree-realistic-b
 spider - https://static.vecteezy.com/system/resources/previews/032/058/600/non_2x/black-spider-on-transparent-background-free-png.png
 rabbit - https://png.pngtree.com/png-clipart/20230528/ourmid/pngtree-funny-bunny-or-baby-rabbit-for-easter-day-on-isolated-background-png-image_7110369.png
 */
+
+/* Answer The Question */
+.headingContainer{
+    background-color: rgb(255, 129, 129);
+    color: white;
+    height: 450px;
+    width: 230px;
+    padding: 10px 30px;
+}
+.questionContainer{
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    height: 280px;
+    padding:20px ;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  
+}
+.questionContainer>h3{
+margin: 0px;
+font-size: 20px;
+text-align: start;
+}
+.questionForm{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 10px;
+}
+.questionForm>button{
+border: none;
+background-color: rgb(29, 110, 241);;
+color: white;
+font-size: 15px;
+padding: 8px 15px;
+border-radius: 5px;
+}

@@ -100,3 +100,56 @@
 // addUserForm.addEventListener('submit',formSubmit);
 // nameEl.addEventListener('blur',addUserName);
 // emailEl.addEventListener('blur',addUserEmail);
+
+// =========== Select Your Pet =============
+// let petSelect = document.getElementById('petSelect');
+// let petImg = document.getElementById('petImg');
+
+// function updatePetImage() {
+//     let selectedPet = petSelect.value;
+//     let imgUrl = '';
+//     switch (selectedPet) {
+//         case 'dog':
+//             imgUrl = 'https://static.vecteezy.com/system/resources/thumbnails/020/899/513/small_2x/happy-dog-transparent-background-png.png';
+//             break;
+//         case 'cat':
+//             imgUrl = 'https://png.pngtree.com/png-vector/20230928/ourmid/pngtree-cute-cat-animal-png-image_10149335.png';
+//             break;
+//         case 'parrot':
+//             imgUrl = 'https://png.pngtree.com/png-clipart/20230307/ourmid/pngtree-realistic-beautiful-orignal-nature-red-parrot-png-image_6636296.png';
+//             break;
+//         case 'spider':
+//             imgUrl = 'https://static.vecteezy.com/system/resources/previews/032/058/600/non_2x/black-spider-on-transparent-background-free-png.png';
+//             break;
+//         case 'rabbit':
+//             imgUrl = 'https://png.pngtree.com/png-clipart/20230528/ourmid/pngtree-funny-bunny-or-baby-rabbit-for-easter-day-on-isolated-background-png-image_7110369.png';
+//             break;
+//         default:
+//             imgUrl = '';
+//     }
+//     petImg.src = imgUrl;
+// }
+// petSelect.addEventListener('change', updatePetImage);
+
+// ========== Answer the Question ================
+
+let questionForm = document.getElementById('questionForm');
+function handleFormSubmit(event) {
+    event.preventDefault(); 
+    const selectedCity = document.querySelector('input[name="city"]:checked');
+    const resultMsg = document.getElementById('resultMsg');
+
+    if (!selectedCity) {
+        resultMsg.textContent = 'Please select the answer.';
+        return;
+    }
+
+    if (selectedCity.value === 'Delhi') {
+        resultMsg.textContent = 'Correct answer.';
+        resultMsg.style.color = 'green';
+    } else {
+        resultMsg.textContent = 'Wrong answer.';
+        resultMsg.style.color = 'red';
+    }
+}
+questionForm.addEventListener('submit', handleFormSubmit);
